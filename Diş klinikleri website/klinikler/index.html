@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DentaLead — Demo Klinik Siteleri</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: linear-gradient(135deg, #1B365D 0%, #0f1f3d 100%); color: #fff;
+    min-height: 100vh; padding: 40px 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 50px; }
+  .logo { display: inline-block; background: #008080; color: #fff; padding: 8px 20px;
+    border-radius: 6px; font-weight: 700; letter-spacing: 2px; margin-bottom: 20px; font-size: 14px; }
+  h1 { font-size: 36px; font-weight: 700; margin-bottom: 12px; }
+  .subtitle { color: rgba(255,255,255,0.7); font-size: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px; padding: 20px; text-decoration: none; color: #fff;
+    transition: all 0.2s ease; display: flex; flex-direction: column; gap: 8px; }
+  .card:hover { background: #008080; border-color: #008080; transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,128,128,0.3); }
+  .card-title { font-size: 16px; font-weight: 600; line-height: 1.4; }
+  .card-url { font-size: 12px; color: rgba(255,255,255,0.5); word-break: break-all; }
+  .card:hover .card-url { color: rgba(255,255,255,0.85); }
+  footer { text-align: center; margin-top: 60px; padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.4); font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">DENTALEAD</div>
+      <h1>Demo Klinik Siteleri</h1>
+      <p class="subtitle">Toplam 5 klinik demo sitesi</p>
+    </header>
+    <div class="grid">
+      <a class="card" href="/amasya-ortodonti-kli/">
+        <div class="card-title">Amasya Ortodonti Kli</div>
+        <div class="card-url">/amasya-ortodonti-kli/</div>
+      </a>
+      <a class="card" href="/dent-bakirkoy/">
+        <div class="card-title">Dent Bakirkoy</div>
+        <div class="card-url">/dent-bakirkoy/</div>
+      </a>
+      <a class="card" href="/dentistanbul-bakirkoy-polikilinigi/">
+        <div class="card-title">Dentistanbul Bakirkoy Polikilinigi</div>
+        <div class="card-url">/dentistanbul-bakirkoy-polikilinigi/</div>
+      </a>
+      <a class="card" href="/doga/">
+        <div class="card-title">Doga</div>
+        <div class="card-url">/doga/</div>
+      </a>
+      <a class="card" href="/star/">
+        <div class="card-title">Star</div>
+        <div class="card-url">/star/</div>
+      </a>
+    </div>
+    <footer>© DentaLead — Demo İnceleme Sayfası</footer>
+  </div>
+</body>
+</html>
